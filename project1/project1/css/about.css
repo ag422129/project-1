@@ -1,0 +1,103 @@
+.main {
+    position: relative;
+    width: 100vw;
+    height: 95vh;
+    background-color: #3b4a6b;
+}
+
+.pic {
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    width: 300px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+    width: 400px;
+    top: 0;
+    left: 35vw;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+}
+
+.moreinfo {
+    position: absolute;
+    top: 0;
+    left: 30vw;
+    width: 500px;
+    height: 500px;
+    background-color: #3b4a6b;
+    border-radius: 20px;
+    z-index: 2;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    visibility: hidden;
+}
+
+.moreinfo.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.moreinfo p {
+    font-size: 20px;
+    color: white;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.more {
+    position: absolute;
+    top: 52vh;
+    right: -30vw;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    background-color: yellowgreen;
+}
+
+.more:hover {
+    background-color: #ff6700;
+}
+
+.ourinfo {
+    width: 800px;
+    position: absolute;
+    bottom: -3vh;
+    color: white;
+}
+
+
+
+.ourinfo table {
+    border-spacing: 20px;
+}
+
+table td {
+    text-align: center;
+}
+
+
+.map {
+    position: absolute;
+    bottom: -3vh;
+    right: 0;
+    color: white;
+    z-index: 99;
+}
